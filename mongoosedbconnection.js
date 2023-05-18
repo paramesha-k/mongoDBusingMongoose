@@ -35,7 +35,7 @@ const locationSchema = new mongoose.Schema({
 });
 
 const ReviewModel=mongoose.model("reviewModel",reviewSchema,"review");
-                  mongoose.model("locationModel",locationSchema,"location");
+                  mongoose.model("locationModel",locationSchema ,"location");
 
 //var r = mongoose.model('reviewModel').create({authorName:"HHHH",reviewText:"This is a review"});
 //const Rmodel=mongoose.model('reviewModel');
