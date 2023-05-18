@@ -41,7 +41,7 @@ const ReviewModel=mongoose.model("reviewModel",reviewSchema,"review");
 //const Rmodel=mongoose.model('reviewModel');
  //r =  Rmodel({authorName:"jjjj",reviewText:"This is a review"});
 
-const rdoc = new ReviewModel({authorName:"kkk",reviewText:"This is a review for kkk"});
+const rdoc = new ReviewModel({authorName:"kkk",reviewText :"This is a review for kkk"});
 rdoc.save()
  .then(()=>{
       console.log("inserted");
